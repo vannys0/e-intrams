@@ -1,5 +1,7 @@
 .home,
-.events {
+.events,
+.announcements,
+.score-board {
     width: 100%;
     height: auto;
     display: flex;

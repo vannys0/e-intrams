@@ -8,14 +8,14 @@ function Events() {
     <div className='events d-flex gap-4'>
         <div className='event d-flex flex-column gap-2'>
             <div className='d-flex gap-2'>
-                <img src={Admin} className='profile' alt="No Image" />
+                <img loading='lazy' src={Admin} className='profile' alt="No Image" />
                 <div className='d-flex flex-column justify-content-center'>
                     <span className='user-name'>Administrator</span>
                     <span className='date-posted'>2 hrs ago.</span>
                 </div>
             </div>
             <span>This is a caption Pacquio vs Barrios</span>
-            <img src={Pacman} className='event-image' alt="No Image" />
+            <img loading='lazy' src={Pacman} className='event-image' alt="No Image" />
             <div className='d-flex align-items-center justify-content-between mt-2'>
                 <span className='react'>Like</span>
                 <span className='react'>Comment</span>
@@ -24,14 +24,14 @@ function Events() {
         </div>
         <div className='event d-flex flex-column gap-2'>
             <div className='d-flex gap-2'>
-                <img src={Admin} className='profile' alt="No Image" />
+                <img loading='lazy' src={Admin} className='profile' alt="No Image" />
                 <div className='d-flex flex-column justify-content-center'>
                     <span className='user-name'>Administrator</span>
                     <span className='date-posted'>2 hrs ago.</span>
                 </div>
             </div>
             <span>Good luck sir manny!!!</span>
-            <img src={Pacman} className='event-image' alt="No Image" />
+            <img loading='lazy' src={Pacman} className='event-image' alt="No Image" />
             <div className='d-flex align-items-center justify-content-between mt-2'>
                 <span className='react'>Like</span>
                 <span className='react'>Comment</span>
